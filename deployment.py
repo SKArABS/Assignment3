@@ -1,3 +1,6 @@
+if __name__ == '__main__':
+    main()
+    
 import streamlit as st
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -52,5 +55,3 @@ st.write("Probability of class 0:", predictions[0, 0])
 st.write("Probability of class 1:", predictions[0, 1])
 
 
-if __name__ == '__main__':
-    main()
