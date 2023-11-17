@@ -50,3 +50,7 @@ predictions = model.predict([encoded_user_input_senior_citizen, encoded_user_inp
 st.header("Prediction Results:")
 st.write("Probability of class 0:", predictions[0, 0])
 st.write("Probability of class 1:", predictions[0, 1])
+
+
+if __name__ == '__main__':
+    main()
