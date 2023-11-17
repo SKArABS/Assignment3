@@ -1,7 +1,8 @@
 import streamlit as st
 import numpy as np
-from sklearn.preprocessing import LabelEncoder, StandardScaler
-from keras.models import load_model
+import sklearn
+import keras
+from keras.models import *
 import pickle
 
 # Load the Keras model
